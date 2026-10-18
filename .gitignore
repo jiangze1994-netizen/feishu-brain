@@ -1,0 +1,17 @@
+# 测试生成物，不入库（用 tests/make_fixture.py 重建）
+tests/fixtures/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 用户数据（万一有人在仓库目录里跑过）
+raw/
+index/
+state.json
+*.html
+!assets/brain-template.html
+
+# macOS
+.DS_Store
